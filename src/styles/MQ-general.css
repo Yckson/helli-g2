@@ -1,0 +1,31 @@
+div.sites > span:nth-child(1):hover{
+    border-top: solid 2px rgb(61, 105, 250);
+}
+
+div.sites > span:nth-child(2):hover{
+    border-top: solid 2px rgb(197, 29, 23);
+}
+
+div.sites > span:nth-child(3):hover{
+    border-top: solid 2px rgb(2, 165, 2);
+}
+
+div.sites > span:nth-child(4):hover{
+    border-top: solid 2px rgb(255, 136, 0);
+}
+
+div.sites > span:nth-child(5):hover{
+    border-top: solid 2px red;
+}
+
+div.sites > span:nth-child(6):hover{
+    border-top: solid 2px rgb(1, 89, 190);
+}
+
+div.subs a:hover{
+    color: rgb(4, 0, 255);
+}
+
+div.subs button:hover{
+    color: rgb(4, 0, 255);
+}

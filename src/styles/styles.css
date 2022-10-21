@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('MQ-general.css');
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'O';
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding: 0px 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.sites{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: lighter;
+    color: rgb(202, 202, 202);
+    
+}
+
+div.sites > span{
+    margin: 0 5px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+div.sites > span:nth-child(1){
+    color: rgb(61, 105, 250);
+    border-top: solid 2px transparent;
+}
+
+div.sites > span:nth-child(2){
+    color: rgb(197, 29, 23);
+    border-top: solid 2px transparent;
+}
+
+div.sites > span:nth-child(3){
+    color: rgb(2, 165, 2);
+    border-top: solid 2px transparent;
+}
+
+div.sites > span:nth-child(4){
+    color: rgb(255, 136, 0);
+    border-top: solid 2px transparent;
+}
+
+div.sites > span:nth-child(5){
+    color: red;
+    border-top: solid 2px transparent;
+}
+
+div.sites > span:nth-child(6){
+    color: rgb(1, 89, 190);
+    border-top: solid 2px transparent;
+    border-right: none;
+}
+
+div.subs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    font-size: small;
+}
+
+div.subs a{
+    color: grey;
+    transition-duration: 0.3s;
+}
+
+div.subs button{
+    background-color: rgb(228, 228, 228);
+    background-color: initial !important;
+    border: 0.5px solid rgb(160, 160, 160) !important;
+    border-radius: 2px;
+    padding: 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C4170C;
+    padding: 1.2vw 15%;
+}
