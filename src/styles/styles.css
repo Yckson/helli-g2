@@ -46,6 +46,7 @@ div.sites > span{
     margin: 0 5px;
     font-weight: bold;
     padding: 10px 0;
+    cursor: pointer;
 }
 
 div.sites > span:nth-child(1){
@@ -116,22 +117,44 @@ a.brand{
 }
 
 nav > button{
+    display: flex;
+    justify-content: center;
     padding: 5px;
     background-color: transparent;
     color: white;
     border: none;
     font-size: 12pt;
+    width: 15%;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav > button > i{
+    margin-right: 5px;
 }
 
 div.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.411);
-    padding: 7px 5px;
+    padding: 10px 0px;
+    width: 15%;
+    border-radius: 2px;
 }
 
 div.search button, div.search input {
     background-color: transparent;
     border: none;
     color: white;
+}
+
+div.search input{
+    width: 90%;
+}
+
+div.search button{
+    width: 10%;
 }
 
 section.mainContent{
@@ -274,7 +297,7 @@ div.noticeDesc > h1{
 }
 
 div.noticeDesc ul{
-    color: grey;
+    color: rgb(197, 197, 197);
     margin-left: 20px;
     
 }
@@ -296,4 +319,86 @@ div.noticeDesc > span{
 div.noticeBrand{
     padding: 40px 20px;
     border-bottom: solid 1px rgb(197, 197, 197);
+}
+
+div.newsCard{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    background-color: white;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+div.newsCard > h4.cardBrand{
+    border-bottom: 1px solid rgb(197, 197, 197);
+    padding-bottom: 20px;
+    width: 100%;
+    padding-left: 25px;
+}
+
+div.cardContent{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+div.sideNews{
+    display: flex;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    align-items: center;
+}
+
+div.sideNews > *:nth-child(1){
+    width: 75%;
+    color: #2244b6;
+    font-weight: bold;
+}
+
+h4.cardEnd{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 12pt;
+    color: #2244b6;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+div.menuBarBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+div.menuBar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 14%;
+    background-color: white;
+    overflow-y: scroll;
+    padding: 30px 20px;
+    font-size: 14pt;
+}
+
+a.menuBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: rgb(77, 77, 77);
+    font-weight: lighter;
+}
+
+a.menuBtn > i{
+    font-size: 10pt;
+    color: #2244b6;
 }
