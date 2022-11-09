@@ -31,12 +31,14 @@
         </div>
     </header>
     <nav>
-        <button><i class="fas fa-bars"></i>MENU</button>
+        <button onclick="openMenu()"><i class="fas fa-bars"></i><span>MENU</span></button>
         <a href="#" class="brand"><h1>G2</h1></a>
         <div class="search">
             <button class="btnSearch"><i class="fas fa-search"></i></button>
             <input type="text" class="inputSearch" placeholder="Buscar">
         </div>
+        <i class="fas fa-search mobileSearch"></i>
+        
     </nav>
     <section class="mainContent">
         <div class="firstNews">
@@ -196,7 +198,8 @@
                         </div>
                         <div class="sideNews">
                             <span class="noticeDesc">
-                                Números finais: Lula venceu por 2,1 milhões de votos
+                                
+                            [=´-po0úmeros finais: Lula venceu por 2,1 milhões de votos
                             </span>
                             <img src="src/img/sidenews5.webp" alt="">
                         </div>
@@ -213,28 +216,28 @@
         </div>
     </section>
 
-    <div class="menuBarBackground">
-        <div class="menuBar">
-            <a href="" class="menuBtn"><span>editorias</span> <i class="fas fa-angle-right"></i></a>
-            <a href="" class="menuBtn">eleições <i class="fas fa-angle-right"></i></a>
-            <a href="" class="menuBtn">regiões <i class="fas fa-angle-right"></i></a>
-            <a href="" class="menuBtn">telejornais <i class="fas fa-angle-right"></i></a>
-            <a href="" class="menuBtn">globonews <i class="fas fa-angle-right"></i></a>
-            <a href="" class="menuBtn">blogs e colunas <i class="fas fa-angle-right"></i></a>
-            <a href="" class="menuBtn">podcasts <i class="fas fa-angle-right"></i></a>
-            <a href="" class="menuBtn">serviços <i class="fas fa-angle-right"></i></a>
-            <a href="" class="menuBtn">videos</a>
-            <a href="" class="menuBtn">newsletter</a>
-            <a href="" class="menuBtn">webstories</a>
-            <a href="" class="menuBtn">especial publicitário <i class="fas fa-angle-right"></i></a>
-            <hr>
-            <a href="" class="menuBtn">princípios editoriais</a>
-            <a href="" class="menuBtn">sobre o g2</a>
-            <a href="" class="menuBtn">app g2</a>
-            <a href="" class="menuBtn">equipe</a>
-            <a href="" class="menuBtn">entre em contato</a>
-            <a href="" class="menuBtn">termos de uso do g2</a>
-        </div>
+    <div class="menuBarBackground hide" id="menu-bar-background" onclick="closeMenu()"></div>
+    <div class="menuBar hide" id="menu-bar">
+        <a href="" class="menuBtn"><span>editorias</span> <i class="fas fa-angle-right"></i></a>
+        <a href="" class="menuBtn">eleições <i class="fas fa-angle-right"></i></a>
+        <a href="" class="menuBtn">regiões <i class="fas fa-angle-right"></i></a>
+        <a href="" class="menuBtn">telejornais <i class="fas fa-angle-right"></i></a>
+        <a href="" class="menuBtn">globonews <i class="fas fa-angle-right"></i></a>
+        <a href="" class="menuBtn">blogs e colunas <i class="fas fa-angle-right"></i></a>
+        <a href="" class="menuBtn">podcasts <i class="fas fa-angle-right"></i></a>
+        <a href="" class="menuBtn">serviços <i class="fas fa-angle-right"></i></a>
+        <a href="" class="menuBtn">videos</a>
+        <a href="" class="menuBtn">newsletter</a>
+        <a href="" class="menuBtn">webstories</a>
+        <a href="" class="menuBtn">especial publicitário <i class="fas fa-angle-right"></i></a>
+        <hr>
+        <a href="" class="menuBtn">princípios editoriais</a>
+        <a href="" class="menuBtn">sobre o g2</a>
+        <a href="" class="menuBtn">app g2</a>
+        <a href="" class="menuBtn">equipe</a>
+        <a href="" class="menuBtn">entre em contato</a>
+        <a href="" class="menuBtn">termos de uso do g2</a>
     </div>
+    <script src="src/script/main.js"></script>
 </body>
 </html>

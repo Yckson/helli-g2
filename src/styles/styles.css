@@ -4,7 +4,6 @@
 
 
 html, body{
-    height: 100%;
     width: 100%;
     background-color: rgb(241, 241, 241) !important;
 }
@@ -375,18 +374,22 @@ div.menuBarBackground{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+    transition-duration: 1s;
 }
 
 div.menuBar{
     display: flex;
     flex-direction: column;
-    position: relative;
+    top: 0;
+    left: 0;
+    position: absolute;
     height: 100%;
     width: 14%;
     background-color: white;
     overflow-y: scroll;
     padding: 30px 20px;
     font-size: 14pt;
+    transition-duration: 1s;
 }
 
 a.menuBtn{

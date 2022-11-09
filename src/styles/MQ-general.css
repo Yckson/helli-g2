@@ -29,3 +29,103 @@ div.subs a:hover{
 div.subs button:hover{
     color: rgb(4, 0, 255);
 }
+
+.hide{
+    display: none !important;
+}
+
+i.mobileSearch {
+    color: white;
+    display: none;
+}
+
+
+@media Screen and (max-width: 1824px){
+    div.subs{
+        width: 14% !important;
+    }
+}
+
+@media Screen and (max-width: 1700px){
+    div.firstNews{
+        width: 75% !important;
+    }
+
+    div.otherNews{
+        width: 75% !important;
+    }
+}
+
+@media Screen and (max-width: 1359px){
+    div.subs{
+        width: 20% !important;
+    }
+    div.search{
+        display: none !important;
+    }
+
+    nav > button{
+        width: 30% !important;
+    }
+    nav > button > span{
+        display: none !important;
+    }
+
+    .mobileSearch{
+        display: inline-block !important;
+        width: 30%;
+        text-align: center;
+    }
+    div.firstNews{
+        width: 90% !important;
+    }
+
+    div.otherNews{
+        width: 90% !important;
+    }
+}
+
+@media Screen and (max-width: 1090px){
+    div.haveYouSeen{
+        display: none !important;
+    }
+
+    div.news{
+        width: 100% !important;
+    }
+}
+
+@media Screen and (max-width: 945px){
+    div.subs{
+        width: 30% !important;
+    }
+
+    div.sites{
+        display: none !important;
+    }
+
+    header{
+        justify-content: center !important;
+        padding: 5px !important;
+    }
+
+    div.firstNews > div:first-child{
+        width: 100%;
+    }
+
+    div.firstNews{
+        height: 400px !important;
+    }
+
+    div.secondNews{
+        display: none !important;
+    }
+
+    
+}
+
+@media Screen and (max-width: 780px){
+    div.notice > img{
+        height: 200px !important;
+    }
+}
