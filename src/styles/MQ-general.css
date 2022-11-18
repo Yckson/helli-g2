@@ -172,6 +172,10 @@ i.mobileSearch {
     div.subs{
         width: 50% !important;
     }
+
+    div.menuBar{
+        width: 150px !important;
+    }
 }
 
 @media Screen and (max-width: 400px){
