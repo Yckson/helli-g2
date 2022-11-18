@@ -406,3 +406,18 @@ a.menuBtn > i{
     font-size: 10pt;
     color: #2244b6;
 }
+
+div.video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 650px;
+    background-color: white;
+}
+
+div.video > iframe{
+    height: inherit;
+    width: inherit;
+}

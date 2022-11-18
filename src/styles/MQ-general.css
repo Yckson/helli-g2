@@ -145,7 +145,20 @@ i.mobileSearch {
     div.otherNews{
         width: 100% !important;
     }
+    div.video{
+        height: 300px !important;
+        width: 550px !important;
+    }
 }
+
+@media Screen and (max-width: 580px){
+    div.video{
+        height: 250px !important;
+        width: 500px !important;
+    }
+}
+
+
 
 @media Screen and (max-width: 532px){
     div.firstNews h1{
@@ -175,6 +188,12 @@ i.mobileSearch {
 
     div.menuBar{
         width: 150px !important;
+    }
+
+    div.video{
+        height: 200px !important;
+        width: 300px !important;
+        top: 20% !important;
     }
 }
 

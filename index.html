@@ -42,12 +42,12 @@
     </nav>
     <section class="mainContent">
         <div class="firstNews">
-            <div>
-                <h4>Supremo</h4>
+            <div onclick="openVideo()">
+                <h4>História</h4>
                 <div>
-                    <h1>Alvo de ataques, Cármen Lúcia defende democracia e STF: 'Brasil vale a pena'</h1>
+                    <h1>Religiosidade em Minas Gerais e a Relação com o Barroco Mineiro</h1>
                     <span>
-                        Na última semana, ministra foi vítima de ataques misóginos do ex-deputado. Magistrados manifestaram apoio a Cármen antes de retomar julgamento sobre Fundo Amazônia.
+                        A arte e a religião foram usadas como forma de controle e as associações de leigos foram as financiadoras do trabalhos dos artífices, artistas e artesãos desse período.
                     </span>
                 </div>
             </div>
@@ -217,6 +217,7 @@
     </section>
 
     <div class="menuBarBackground hide" id="menu-bar-background" onclick="closeMenu()"></div>
+    <div class="menuBarBackground hide" id="video-background" onclick="closeVideo()"></div>
     <div class="menuBar hide" id="menu-bar">
         <a href="" class="menuBtn"><span>editorias</span> <i class="fas fa-angle-right"></i></a>
         <a href="" class="menuBtn">eleições <i class="fas fa-angle-right"></i></a>
@@ -237,6 +238,9 @@
         <a href="" class="menuBtn">equipe</a>
         <a href="" class="menuBtn">entre em contato</a>
         <a href="" class="menuBtn">termos de uso do g2</a>
+    </div>
+    <div class="video hide" id="video">
+        <iframe src="https://www.youtube.com/embed/JES6wDYwv94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <script src="src/script/main.js"></script>
 </body>

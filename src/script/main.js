@@ -21,3 +21,15 @@ function closeMenu(){
     document.body.style.overflow = 'auto';
 
 }
+
+function openVideo(){
+    hide('video-background');
+    hide('video');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeVideo(){
+    hide('video-background');
+    hide('video');
+    document.body.style.overflow = 'auto';
+}
