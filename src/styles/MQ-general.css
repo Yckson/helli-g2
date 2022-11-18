@@ -126,6 +126,71 @@ i.mobileSearch {
 
 @media Screen and (max-width: 780px){
     div.notice > img{
-        height: 200px !important;
+        width: calc(810px / 3) !important;
+        height: calc(456px / 3) !important;
     }
+
+    div.notice h1{
+        font-size: 10pt !important;
+    }
+
+    div.noticeDesc > ul{
+        display: none !important;
+    }
+
+    div.news{
+        width: 100% !important;
+        padding: 0px 5px;
+    }
+    div.otherNews{
+        width: 100% !important;
+    }
+}
+
+@media Screen and (max-width: 532px){
+    div.firstNews h1{
+        font-size: 18pt !important;
+    }
+
+    div.firstNews{
+        text-align: center !important;
+        justify-self: center;
+    }
+
+    div.firstNews span{
+        font-size: 10pt !important;
+    }
+
+    div.notice > img{
+        width: calc(810px / 4) !important;
+        height: calc(456px / 4) !important;
+    }
+    div.noticeBrand > h1{
+        font-size: 14pt !important;
+    }
+
+    div.subs{
+        width: 50% !important;
+    }
+}
+
+@media Screen and (max-width: 400px){
+    div.notice > img{
+        width: calc(810px / 5) !important;
+        height: calc(456px / 5) !important;
+    }
+
+    div.noticeDesc > span{
+        display: none !important;
+    }
+
+    div.noticeDesc > h4{
+        font-size: 10pt !important;
+    }
+
+    div.noticeBrand > h1{
+        font-size: 12pt !important;
+    }
+
+
 }
